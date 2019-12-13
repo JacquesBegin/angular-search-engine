@@ -1,0 +1,25 @@
+table {
+  margin-top: 4rem;
+  width: 100%;
+  /* border: 1px solid #a7a7a7; */
+}
+
+table, th, td {
+  border: 1px solid #f0f0f0;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: .5rem;
+}
+
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+caption {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
